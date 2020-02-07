@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	char ch;
+	int a;
 
-	for (ch = '0' ; ch <= '9' ; ch++)
+	for (a = 0; a < 10; a++)
 	{
-	putchar(ch + '0');
+	putchar(a + '0');
+	}
+	for (a = 'a'; a <= 'f'; a++)
+	{
+	putchar(a);
 	}
 
-	for (ch = 'a' ; ch <= 'f' ; ch++);
-	{
-	putchar(ch);
-	}
 	putchar('\n');
 
 	return (0);
