@@ -1,9 +1,10 @@
-/**
- * description: use new function print_alpha
- * print_alphabet: print a through z
- * Return: Always 0 (Success)
- */
 #include "holberton.h"
+
+/**
+ * main: Entry point
+ * Return: Always 0 (Success)
+ * Description: prototype will print_alphabet using print_alphabet
+ */
 
 void print_alphabet(void)
 {
