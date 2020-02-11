@@ -1,6 +1,6 @@
 /**
- * main - Entry point
- *
+ * description: use new function print_alpha
+ * print_alphabet: print a through z
  * Return: Always 0 (Success)
  */
 #include "holberton.h"
