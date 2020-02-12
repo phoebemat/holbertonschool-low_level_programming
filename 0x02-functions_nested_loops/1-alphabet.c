@@ -1,16 +1,20 @@
 #include "holberton.h"
 /**
-* print_alphabet - user prints alphabet a to z using _putchar
-**/
+ * print_alphabet - prits alphabet a - z lower case
+ *
+ * Return: Always 0
+ */
 void print_alphabet(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	for (c = 'a' ; c <= 'z' ; c++)
 	{
-	_putchar(ch);
+
+	_putchar(c);
+
 	}
 
-	_putchar(ch);
+	_putchar('\n');
 
 }
