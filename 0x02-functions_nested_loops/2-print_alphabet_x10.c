@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_alphabet_x10 - print list of alphabets 10 times
+ * print_alphabet_x10 - print alphabet ten times without printf
  *
- * Return: 0
+ * Return: 0 (Always Success)
  */
 
 void print_alphabet_x10(void)
