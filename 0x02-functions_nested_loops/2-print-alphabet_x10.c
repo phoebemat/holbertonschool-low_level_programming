@@ -1,24 +1,25 @@
-[2;2Rude "holberton.h"
+#include "holberton.h"
 
 /**
-* print_alphabet_x10 - print array a-z ten times
-* Return: 0 (Always success)
-*/
+ * print_alphabet_x10 - print list of alphabets 10 times
+ *
+ * Return: 0
+ */
 
 void print_alphabet_x10(void)
 {
-	char ch;
-	int x = 0;
+	char c;
+	int d = 0;
 
-	while (x < 11)
+	while (d < 10)
 	{
-	ch = 'a';
-	while (ch <= 'z')
+	c = 'a';
+		while (c <= 'z')
 		{
-		_putchar(ch);
-		ch++;
+		_putchar(c);
+		c++;
 		}
 	_putchar('\n');
-		x++;
+	d++;
 	}
 }
