@@ -1,9 +1,11 @@
 #include "holberton.h"
+
 /**
- * print_below_98 - integer to 98 printed
- * @a: var type
+ * print_below_98 - check if n is 98 or below
+ * @n: int type
  *
- * Return: return 1 through 98
+ *
+ * Return: return int through 98
  */
 
 void print_to_98(int n)
@@ -17,4 +19,4 @@ void print_to_98(int n)
 		printf("%d\n")
 	}
 }
-	
+
