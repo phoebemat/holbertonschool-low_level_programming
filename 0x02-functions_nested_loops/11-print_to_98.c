@@ -12,11 +12,9 @@ void print_to_98(int n)
 	for (n = m ; m < 99; m++)
 	{
 		if (m < 99)
-		putchar(m);
-		putchar(',');
-		putchar(' ');
+		printf("%d, ", m)
 		else
-		putchar('\n');
+		printf("%d\n")
 	}
 }
 	
