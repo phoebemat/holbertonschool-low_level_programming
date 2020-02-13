@@ -8,9 +8,9 @@
 
 int _isupper(int c)
 {
-	int c;
+	int a;
 
-	if (_isupper(c))
+	if (_isupper(a))
 	{
 	return (1);
 	}
