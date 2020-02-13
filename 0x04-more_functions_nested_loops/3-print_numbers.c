@@ -10,7 +10,7 @@ void print_numbers(void)
 {
 	int a;
 
-	while (a < 10)
+	while ((a > 47) && (a < 58))
 	{
 	_putchar(a);
 	}
