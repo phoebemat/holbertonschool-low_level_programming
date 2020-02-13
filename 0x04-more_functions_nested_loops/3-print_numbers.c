@@ -12,7 +12,8 @@ void print_numbers(void)
 
 	while ((a > 47) && (a < 58))
 	{
-	_putchar(a);
+	_putchar(a + '0');
+	a++;
 	}
 
 	_putchar('\n');
