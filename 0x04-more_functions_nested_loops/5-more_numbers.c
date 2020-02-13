@@ -6,22 +6,27 @@
  * Return: Always 0.
  */
 
-
 void more_numbers(void)
 {
 	int a;
-	int b;
+	int c;
 
-	while (a < 15)
+	a = 0;
+
+	while (a < 10)
 	{
-		if (b > 9)
-			{
-			_putchar(b / 10 + '0');
-			_putchar(b / 10 % 10);
-			b++;
-			}
-	a++
+	c = 0;
+	while (c < 15)
+		{
+		if (c > 9)
+			_putchar(c / 10 + '0');
+			_putchar(c % 10 + '0');
+			c++;
+		}
+	a++;
 	_putchar('\n');
 	}
-}
 
+
+
+}
