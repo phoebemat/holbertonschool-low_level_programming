@@ -8,6 +8,7 @@
 
 int _isupper(int c)
 {
+	int c;
 
 	if (_isupper(c))
 	{
