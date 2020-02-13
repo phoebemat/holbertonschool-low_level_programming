@@ -9,11 +9,12 @@
 int _isupper(int c)
 {
 
-	while (_isupper(c))
+	if (_isupper(c))
 	{
 	return (1);
 	}
 
+	else
 	return (0);
 
 
