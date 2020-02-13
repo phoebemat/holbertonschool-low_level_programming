@@ -14,7 +14,7 @@ int _isupper(int c)
 	return (1);
 	}
 
-	if (_isupper !(c))
+	else
 	{
 	return (0);
 	}
