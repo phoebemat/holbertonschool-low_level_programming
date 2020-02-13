@@ -9,20 +9,16 @@
 
 void more_numbers(void)
 {
-	char c;
-	int a = 0;
+	int a;
+	int b;
 
 	while (a < 10)
 	{
-	c = 'a';
-		while (c < 15)
-		{
-		_putchar(c);
-		c++;
-		}
+		if (b < 15)
+			{
+			_putchar(b + '0');
+			}
 	_putchar('\n');
-	a++
 	}
-
 }
 
