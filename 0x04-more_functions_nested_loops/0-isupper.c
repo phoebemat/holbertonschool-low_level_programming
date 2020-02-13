@@ -8,11 +8,14 @@
 
 int _isupper(int c)
 {
-	int c;
 
 	while (_isupper(c))
 	{
 	return (1);
 	}
+
+	return (0);
+
+
 
 }
