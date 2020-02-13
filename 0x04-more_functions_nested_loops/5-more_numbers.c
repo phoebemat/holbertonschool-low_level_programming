@@ -12,9 +12,9 @@ void more_numbers(void)
 	int a;
 	int b;
 
-	while (a < 14)
+	while (a < 15)
 	{
-		if (b < 9)
+		if (b > 9)
 			{
 			_putchar(b / 10 % 10);
 			}
