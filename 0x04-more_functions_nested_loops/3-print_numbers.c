@@ -9,8 +9,12 @@
 void print_numbers(void)
 {
 	int a;
+	int b;
 
-	while ((a > 47) && (a < 58))
+	a = 0;
+	b = 10;
+
+	while (a < b)
 	{
 	_putchar(a + '0');
 	a++;
