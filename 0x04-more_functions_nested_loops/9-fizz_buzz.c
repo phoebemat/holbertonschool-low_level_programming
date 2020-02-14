@@ -9,7 +9,7 @@ int main(void)
 {
 	int a;
 
-	while (1 < 101)
+	while (a < 101)
 	{
 	if (a % 3 == 0)
 	{
@@ -24,6 +24,6 @@ int main(void)
 		printf("FizzBuzz ");
 	}
 	printf("%d ", a);
-	return (0);
 	}
+	return (0);
 }
