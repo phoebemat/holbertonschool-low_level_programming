@@ -9,7 +9,7 @@ int main(void)
 {
 	int a;
 
-	while (a < 101)
+	for (a = 1; a < 101; a++)
 	{
 	if (a % 3 == 0)
 	{
