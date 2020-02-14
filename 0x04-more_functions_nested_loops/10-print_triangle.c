@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_triangle - prints a triangle to the terminal
+ * print_triangle - triangle printed of certain size
  * @size: the size of the triangle
  *
  */
