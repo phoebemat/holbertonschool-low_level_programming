@@ -3,7 +3,7 @@
 
 /**
  * _strlen - function to print the length of a string
- * @i: integer for string length
+ * @s: char pointer
  * Return: Always 0.
  */
 
@@ -11,7 +11,7 @@ int _strlen(char *s)
 {
 	int a = 0;
 
-	while ( s[a] != '\0' )
+	while (s[a] != '\0')
 		{
 		a++
 		}
