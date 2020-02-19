@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_array - print n elements of array
- * @n: number of elements
+ * @n: number of elementss
  * @a: pointer to n
  * Return: Always 0.
  */
